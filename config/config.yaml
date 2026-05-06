@@ -1,0 +1,6 @@
+base_url: https://practice.expandtesting.com/notes/app
+api_url: https://practice.expandtesting.com/notes/api
+
+user:
+  email: testuser_2026_01@gmail.com
+  password: Password123

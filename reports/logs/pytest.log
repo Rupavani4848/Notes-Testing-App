@@ -1,0 +1,11 @@
+INFO     tests.conftest:conftest.py:36 Starting Chrome WebDriver
+INFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
+ERROR    tests.conftest:conftest.py:68 Test failed. Screenshot saved: C:\Users\ganji\Desktop\CAPSTONE_PROJECT\../reports/screenshotINFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
+INFO     tests.conftest:conftest.py:45 Closing Chrome WebDriver
+INFO     tests.conftest:conftest.py:36 Starting Chrome WebDriver
+INFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
+INFO     tests.conftest:conftest.py:45 Closing Chrome WebDriver
+Chrome WebDriver
+INFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
+INFO     tests.conftest:conftest.py:45 Closing Chrome WebDriver
+5 Closing Chrome WebDriver

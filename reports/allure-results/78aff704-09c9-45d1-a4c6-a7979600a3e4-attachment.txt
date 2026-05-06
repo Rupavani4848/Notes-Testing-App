@@ -1,0 +1,4 @@
+2026-05-06 14:49:49,714 - tests.conftest - INFO - Starting Chrome WebDriver
+2026-05-06 14:50:43,404 - tests.conftest - INFO - Navigated to https://practice.expandtesting.com/notes/app
+2026-05-06 14:51:59,058 - tests.conftest - ERROR - Test failed. Screenshot saved: C:\Users\ganji\Desktop\CAPSTONE_PROJECT\../reports/screenshots\test_api_to_ui_sync_20260506_145158_820981.png
+2026-05-06 14:51:59,234 - tests.conftest - INFO - Closing Chrome WebDriver
