@@ -5,19 +5,20 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/Rupavani4848/Notes-Testing-App.git'
+                git branch: 'main',
+                    url: 'https://github.com/Rupavani4848/Notes-Testing-App.git'
             }
         }
 
         stage('Install Dependencies') {
             steps {
-                bat 'pip install -r requirements.txt'
+                bat 'python -m pip install -r requirements.txt'
             }
         }
 
         stage('Run Tests') {
             steps {
-                bat 'pytest -n 4 --alluredir=allure-results'
+                bat 'python -m pytest -n 4 --alluredir=allure-results'
             }
         }
 
