@@ -1,0 +1,27 @@
+2026-05-07 12:01:43,463 - tests.conftest - INFO - Starting Chrome WebDriver
+2026-05-07 12:02:15,136 - tests.conftest - INFO - Navigated to https://practice.expandtesting.com/notes/app
+2026-05-07 12:02:15,140 - root - INFO - Starting login process
+2026-05-07 12:02:15,141 - root - INFO - Executing click - Attempt 1
+2026-05-07 12:02:15,400 - root - INFO - Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+2026-05-07 12:02:18,227 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 12:02:18,227 - root - INFO - Trying self-healing locators
+2026-05-07 12:02:18,303 - root - INFO - Locator success: ('id', 'email')
+2026-05-07 12:02:18,304 - root - INFO - Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+2026-05-07 12:02:18,980 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 12:02:18,982 - root - INFO - Trying self-healing locators
+2026-05-07 12:02:19,059 - root - INFO - Locator success: ('id', 'password')
+2026-05-07 12:02:19,060 - root - INFO - Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+2026-05-07 12:02:19,503 - root - INFO - Executing click - Attempt 1
+2026-05-07 12:02:19,570 - root - INFO - Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+2026-05-07 12:02:19,737 - root - INFO - Login action completed
+2026-05-07 12:02:19,737 - root - INFO - Executing click - Attempt 1
+2026-05-07 12:02:21,224 - root - INFO - Clicking element: ('xpath', "//button[contains(text(),'Add')]")
+2026-05-07 12:02:21,652 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 12:02:21,654 - root - INFO - Finding element: ('id', 'title')
+2026-05-07 12:02:21,683 - root - INFO - Entering text into: ('id', 'title')
+2026-05-07 12:02:21,950 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 12:02:21,950 - root - INFO - Finding element: ('id', 'description')
+2026-05-07 12:02:22,000 - root - INFO - Entering text into: ('id', 'description')
+2026-05-07 12:02:22,216 - root - INFO - Executing click - Attempt 1
+2026-05-07 12:02:22,291 - root - INFO - Clicking element: ('xpath', "//button[text()='Create']")
+2026-05-07 12:02:32,826 - tests.conftest - INFO - Closing Chrome WebDriver

@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        allure 'Allure'
+    }
+
     stages {
 
         stage('Checkout Code') {
@@ -12,26 +16,52 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat 'python -m pip install -r requirements.txt'
+                bat 'python -m venv venv'
+                bat 'venv\\Scripts\\python -m pip install --upgrade pip'
+                bat 'venv\\Scripts\\python -m pip install -r requirements.txt'
             }
         }
 
-        stage('Run Tests') {
+        stage('Run Tests (Parallel)') {
             steps {
-                bat 'python -m pytest -n 4 --alluredir=allure-results'
+                bat '''
+                venv\\Scripts\\python -m pytest ^
+                -n 4 ^
+                --alluredir=allure-results ^
+                --html=report.html ^
+                --self-contained-html
+                '''
             }
         }
 
         stage('Generate Allure Report') {
             steps {
-                bat 'allure generate allure-results -o allure-report --clean'
+                allure([
+                    includeProperties: false,
+                    jdk: '',
+                    results: [[path: 'allure-results']]
+                ])
+            }
+        }
+
+        stage('Publish HTML Report') {
+            steps {
+                publishHTML([
+                    reportDir: '.',
+                    reportFiles: 'report.html',
+                    reportName: 'Pytest HTML Report',
+                    keepAll: true,
+                    alwaysLinkToLastBuild: true,
+                    allowMissing: false
+                ])
             }
         }
     }
 
     post {
         always {
-            archiveArtifacts artifacts: 'allure-report/**', fingerprint: true
+            archiveArtifacts artifacts: 'report.html, allure-results/**',
+                              fingerprint: true
         }
     }
 }

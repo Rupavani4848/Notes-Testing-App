@@ -9,10 +9,10 @@ from pages.login_page import LoginPage
         ("", "", "Email address is required"),
         ("rupa0103@gmail.com", "", "Password is required"),
 
-        # Additional Test Cases
         ("invalidemail", "password123", "Email address is invalid"),
         ("", "password123", "Email address is required"),
         ("test@", "password123", "Email address is invalid"),
+
         ("' OR '1'='1", "' OR '1'='1", "Email address is invalid")
     ]
 )
