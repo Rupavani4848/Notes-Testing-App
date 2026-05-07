@@ -1,7 +1,11 @@
+```txt
 selenium
 pytest
 pytest-xdist
+pytest-html
+pytest-rerunfailures
 requests
 pyyaml
 webdriver-manager
 allure-pytest
+```
