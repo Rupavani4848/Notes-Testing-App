@@ -1,3 +1,0 @@
-2026-05-06 14:43:54,932 - tests.conftest - INFO - Starting Chrome WebDriver
-2026-05-06 14:44:22,845 - tests.conftest - INFO - Navigated to https://practice.expandtesting.com/notes/app
-2026-05-06 14:44:38,583 - tests.conftest - INFO - Closing Chrome WebDriver

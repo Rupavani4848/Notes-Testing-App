@@ -1,6 +1,0 @@
-[32mINFO    [0m tests.conftest:conftest.py:36 Starting Chrome WebDriver
-[32mINFO    [0m tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
-[32mINFO    [0m tests.conftest:conftest.py:45 Closing Chrome WebDriver
-[32mINFO    [0m tests.conftest:conftest.py:36 Starting Chrome WebDriver
-[32mINFO    [0m tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
-[32mINFO    [0m tests.conftest:conftest.py:45 Closing Chrome WebDriver

@@ -1,11 +1,186 @@
 INFO     tests.conftest:conftest.py:36 Starting Chrome WebDriver
 INFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
-ERROR    tests.conftest:conftest.py:68 Test failed. Screenshot saved: C:\Users\ganji\Desktop\CAPSTONE_PROJECT\../reports/screenshotINFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
+INFO     root:login_page.py:48 Starting login process
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'email')
+INFO     root:base_page.py:81 Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'password')
+INFO     root:base_page.py:81 Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:login_page.py:66 Login action completed
 INFO     tests.conftest:conftest.py:45 Closing Chrome WebDriver
 INFO     tests.conftest:conftest.py:36 Starting Chrome WebDriver
 INFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
+INFO     root:login_page.py:48 Starting login process
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'email')
+INFO     root:base_page.py:81 Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'password')
+INFO     root:base_page.py:81 Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:login_page.py:66 Login action completed
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: ('xpath', "//button[contains(text(),'Add')]")
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:34 Finding element: ('id', 'title')
+INFO     root:base_page.py:81 Entering text into: ('id', 'title')
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:34 Finding element: ('id', 'description')
+INFO     root:base_page.py:81 Entering text into: ('id', 'description')
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: ('xpath', "//button[text()='Create']")
 INFO     tests.conftest:conftest.py:45 Closing Chrome WebDriver
-Chrome WebDriver
+INFO     tests.conftest:conftest.py:36 Starting Chrome WebDriver
 INFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
+INFO     root:base_page.py:88 Opening URL: https://practice.expandtesting.com/notes/app
+INFO     root:login_page.py:48 Starting login process
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'email')
+INFO     root:base_page.py:81 Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'password')
+INFO     root:base_page.py:81 Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:login_page.py:66 Login action completed
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: ('xpath', "//button[contains(text(),'Add')]")
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: ('xpath', "//button[text()='Create']")
 INFO     tests.conftest:conftest.py:45 Closing Chrome WebDriver
-5 Closing Chrome WebDriver
+INFO     tests.conftest:conftest.py:36 Starting Chrome WebDriver
+INFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
+INFO     root:base_page.py:88 Opening URL: https://practice.expandtesting.com/notes/app
+INFO     root:login_page.py:48 Starting login process
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'email')
+INFO     root:base_page.py:81 Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'password')
+INFO     root:base_page.py:81 Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+INFO     root:login_page.py:66 Login action completed
+INFO     root:login_page.py:70 Fetching login error message
+INFO     root:login_page.py:88 Auth error found: Incorrect email address or password
+INFO     tests.conftest:conftest.py:45 Closing Chrome WebDriver
+INFO     tests.conftest:conftest.py:36 Starting Chrome WebDriver
+INFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
+INFO     root:base_page.py:88 Opening URL: https://practice.expandtesting.com/notes/app
+INFO     root:login_page.py:48 Starting login process
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'email')
+INFO     root:base_page.py:81 Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'password')
+INFO     root:base_page.py:81 Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+INFO     root:login_page.py:66 Login action completed
+INFO     root:login_page.py:70 Fetching login error message
+WARNING  root:login_page.py:96 No auth alert/toast message found
+INFO     root:login_page.py:122 Field validation error: Email address is required
+INFO     tests.conftest:conftest.py:45 Closing Chrome WebDriver
+INFO     tests.conftest:conftest.py:36 Starting Chrome WebDriver
+INFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
+INFO     root:base_page.py:88 Opening URL: https://practice.expandtesting.com/notes/app
+INFO     root:login_page.py:48 Starting login process
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'email')
+INFO     root:base_page.py:81 Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'password')
+INFO     root:base_page.py:81 Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+INFO     root:login_page.py:66 Login action completed
+INFO     root:login_page.py:70 Fetching login error message
+WARNING  root:login_page.py:96 No auth alert/toast message found
+INFO     root:login_page.py:122 Field validation error: Password is required
+INFO     tests.conftest:conftest.py:45 Closing Chrome WebDriver
+INFO     tests.conftest:conftest.py:36 Starting Chrome WebDriver
+INFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
+INFO     root:login_page.py:48 Starting login process
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'email')
+INFO     root:base_page.py:81 Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'password')
+INFO     root:base_page.py:81 Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:login_page.py:66 Login action completed
+INFO     tests.conftest:conftest.py:45 Closing Chrome WebDriver
+INFO     tests.conftest:conftest.py:36 Starting Chrome WebDriver
+INFO     tests.conftest:conftest.py:42 Navigated to https://practice.expandtesting.com/notes/app
+INFO     root:login_page.py:48 Starting login process
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'email')
+INFO     root:base_page.py:81 Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:26 Trying self-healing locators
+INFO     root:self_healing.py:17 Locator success: ('id', 'password')
+INFO     root:base_page.py:81 Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+WARNING  root:base_page.py:64 Click intercepted. Using JavaScript click.
+INFO     root:login_page.py:66 Login action completed
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: ('xpath', "//button[contains(text(),'Add')]")
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:34 Finding element: ('id', 'title')
+INFO     root:base_page.py:81 Entering text into: ('id', 'title')
+INFO     root:retry_handler.py:15 Executing send_keys - Attempt 1
+INFO     root:base_page.py:34 Finding element: ('id', 'description')
+INFO     root:base_page.py:81 Entering text into: ('id', 'description')
+INFO     root:retry_handler.py:15 Executing click - Attempt 1
+INFO     root:base_page.py:54 Clicking element: ('xpath', "//button[text()='Create']")
+INFO     tests.conftest:conftest.py:45 Closing Chrome WebDriver

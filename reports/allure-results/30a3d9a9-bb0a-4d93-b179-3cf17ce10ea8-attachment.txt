@@ -1,7 +1,0 @@
-2026-05-06 14:49:49,714 - tests.conftest - INFO - Starting Chrome WebDriver
-2026-05-06 14:50:43,400 - tests.conftest - INFO - Navigated to https://practice.expandtesting.com/notes/app
-2026-05-06 14:51:15,192 - tests.conftest - ERROR - Test failed. Screenshot saved: C:\Users\ganji\Desktop\CAPSTONE_PROJECT\../reports/screenshots\test_invalid_login[--Email address is required]_20260506_145115_037602.png
-2026-05-06 14:51:15,322 - tests.conftest - INFO - Closing Chrome WebDriver
-2026-05-06 14:51:17,776 - tests.conftest - INFO - Starting Chrome WebDriver
-2026-05-06 14:52:08,225 - tests.conftest - INFO - Navigated to https://practice.expandtesting.com/notes/app
-2026-05-06 14:52:19,248 - tests.conftest - INFO - Closing Chrome WebDriver
