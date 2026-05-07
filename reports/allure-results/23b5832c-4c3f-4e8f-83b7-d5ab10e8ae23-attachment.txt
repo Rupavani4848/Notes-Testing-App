@@ -1,0 +1,53 @@
+2026-05-07 18:43:21,410 - tests.conftest - INFO - Starting Chrome WebDriver
+2026-05-07 18:43:44,245 - tests.conftest - INFO - Navigated to https://practice.expandtesting.com/notes/app
+2026-05-07 18:43:44,248 - root - INFO - Starting login process
+2026-05-07 18:43:44,249 - root - INFO - Executing click - Attempt 1
+2026-05-07 18:43:44,323 - root - INFO - Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+2026-05-07 18:43:45,444 - root - WARNING - Click intercepted. Using JavaScript click.
+2026-05-07 18:43:52,472 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 18:43:52,473 - root - INFO - Trying self-healing locators
+2026-05-07 18:43:52,504 - root - INFO - Locator success: ('id', 'email')
+2026-05-07 18:43:52,505 - root - INFO - Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+2026-05-07 18:43:53,146 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 18:43:53,146 - root - INFO - Trying self-healing locators
+2026-05-07 18:43:53,171 - root - INFO - Locator success: ('id', 'password')
+2026-05-07 18:43:53,173 - root - INFO - Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+2026-05-07 18:43:53,430 - root - INFO - Executing click - Attempt 1
+2026-05-07 18:43:53,550 - root - INFO - Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+2026-05-07 18:43:54,698 - root - WARNING - Click intercepted. Using JavaScript click.
+2026-05-07 18:43:54,728 - root - INFO - Login action completed
+2026-05-07 18:43:54,729 - root - INFO - Executing click - Attempt 1
+2026-05-07 18:44:09,748 - root - WARNING - Attempt 1 failed for click
+2026-05-07 18:44:09,748 - root - ERROR - Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff6bd7fa8e5+14e45]
+	chromedriver!GetHandleVerifier [0x7ff6bd7fa950+14eb0]
+	chromedriver!(No symbol) [0x7ff6bd56d6ed]
+	chromedriver!(No symbol) [0x7ff6bd5c6cfe]
+	chromedriver!(No symbol) [0x7ff6bd5c700c]
+	chromedriver!(No symbol) [0x7ff6bd617cb7]
+	chromedriver!(No symbol) [0x7ff6bd61483b]
+	chromedriver!(No symbol) [0x7ff6bd5b90e8]
+	chromedriver!(No symbol) [0x7ff6bd5b9fc3]
+	chromedriver!GetHandleVerifier [0x7ff6bdb10149+32a6a9]
+	chromedriver!GetHandleVerifier [0x7ff6bdb0a715+324c75]
+	chromedriver!GetHandleVerifier [0x7ff6bdb2c012+346572]
+	chromedriver!GetHandleVerifier [0x7ff6bd817cb5+32215]
+	chromedriver!GetHandleVerifier [0x7ff6bd82087c+3addc]
+	chromedriver!GetHandleVerifier [0x7ff6bd8040e4+1e644]
+	chromedriver!GetHandleVerifier [0x7ff6bd804296+1e7f6]
+	chromedriver!GetHandleVerifier [0x7ff6bd7e8737+2c97]
+	KERNEL32!BaseThreadInitThunk [0x7ffe5f6ae957+17]
+	ntdll!RtlUserThreadStart [0x7ffe6050427c+2c]
+
+2026-05-07 18:44:11,750 - root - INFO - Executing click - Attempt 2
+2026-05-07 18:44:16,961 - root - INFO - Clicking element: ('xpath', "//button[contains(text(),'Add')]")
+2026-05-07 18:44:17,439 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 18:44:17,439 - root - INFO - Finding element: ('id', 'title')
+2026-05-07 18:44:17,472 - root - INFO - Entering text into: ('id', 'title')
+2026-05-07 18:44:17,676 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 18:44:17,676 - root - INFO - Finding element: ('id', 'description')
+2026-05-07 18:44:17,715 - root - INFO - Entering text into: ('id', 'description')
+2026-05-07 18:44:17,869 - root - INFO - Executing click - Attempt 1
+2026-05-07 18:44:17,941 - root - INFO - Clicking element: ('xpath', "//button[text()='Create']")
+2026-05-07 18:44:49,168 - tests.conftest - INFO - Closing Chrome WebDriver

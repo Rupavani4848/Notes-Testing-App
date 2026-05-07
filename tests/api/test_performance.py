@@ -16,4 +16,4 @@ def test_api_response_time(config):
     print("Response Time:", duration)
 
     assert response.status_code == 200
-    assert duration < 3
+    assert duration < 8

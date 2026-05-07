@@ -1,0 +1,24 @@
+2026-05-07 18:42:52,676 - tests.conftest - INFO - Starting Chrome WebDriver
+2026-05-07 18:43:11,401 - tests.conftest - INFO - Navigated to https://practice.expandtesting.com/notes/app
+2026-05-07 18:43:11,406 - root - INFO - Opening URL: https://practice.expandtesting.com/notes/app
+2026-05-07 18:43:19,117 - root - INFO - Starting login process
+2026-05-07 18:43:19,118 - root - INFO - Executing click - Attempt 1
+2026-05-07 18:43:19,189 - root - INFO - Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+2026-05-07 18:43:30,308 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 18:43:30,309 - root - INFO - Trying self-healing locators
+2026-05-07 18:43:30,333 - root - INFO - Locator success: ('id', 'email')
+2026-05-07 18:43:30,333 - root - INFO - Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+2026-05-07 18:43:30,636 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 18:43:30,637 - root - INFO - Trying self-healing locators
+2026-05-07 18:43:30,661 - root - INFO - Locator success: ('id', 'password')
+2026-05-07 18:43:30,661 - root - INFO - Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+2026-05-07 18:43:30,864 - root - INFO - Executing click - Attempt 1
+2026-05-07 18:43:30,947 - root - INFO - Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+2026-05-07 18:43:32,093 - root - WARNING - Click intercepted. Using JavaScript click.
+2026-05-07 18:43:32,128 - root - INFO - Login action completed
+2026-05-07 18:43:32,130 - root - INFO - Fetching login error message
+2026-05-07 18:43:35,366 - root - WARNING - No auth alert/toast message found
+2026-05-07 18:43:45,791 - root - WARNING - No field validation errors found
+2026-05-07 18:43:51,145 - root - ERROR - No error message found on the page
+2026-05-07 18:43:52,328 - tests.conftest - ERROR - Test failed. Screenshot saved: C:\Users\ganji\Desktop\CAPSTONE_PROJECT\../reports/screenshots\test_invalid_login[wrongemail@gmail.com-wrongpassword-Incorrect email address or password]_20260507_184352_165637.png
+2026-05-07 18:43:52,475 - tests.conftest - INFO - Closing Chrome WebDriver
