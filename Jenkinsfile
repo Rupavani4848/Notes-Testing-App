@@ -24,13 +24,18 @@ pipeline {
 
         stage('Run Tests (Parallel)') {
             steps {
-                bat '''
-                venv\\Scripts\\python -m pytest ^
-                -n 4 ^
-                --alluredir=allure-results ^
-                --html=report.html ^
-                --self-contained-html
-                '''
+
+                // Continue pipeline even if tests fail
+                catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
+
+                    bat '''
+                    venv\\Scripts\\python -m pytest ^
+                    -n 4 ^
+                    --alluredir=allure-results ^
+                    --html=report.html ^
+                    --self-contained-html
+                    '''
+                }
             }
         }
 
