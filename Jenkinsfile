@@ -1,8 +1,13 @@
 pipeline {
+
     agent any
 
     tools {
         allure 'Allure'
+    }
+
+    options {
+        skipDefaultCheckout(true)
     }
 
     stages {
@@ -16,8 +21,15 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
+
+                bat 'if exist venv rmdir /s /q venv'
+
                 bat 'python -m venv venv'
-                bat 'venv\\Scripts\\python -m pip install --upgrade pip'
+
+                bat 'venv\\Scripts\\python -m ensurepip --upgrade'
+
+                bat 'venv\\Scripts\\python -m pip install --upgrade pip setuptools wheel'
+
                 bat 'venv\\Scripts\\python -m pip install -r requirements.txt'
             }
         }
@@ -25,7 +37,6 @@ pipeline {
         stage('Run Tests (Parallel)') {
             steps {
 
-                // Continue pipeline even if tests fail
                 catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
 
                     bat '''
@@ -65,8 +76,11 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: 'report.html, allure-results/**',
-                              fingerprint: true
+
+            archiveArtifacts(
+                artifacts: 'report.html, allure-results/**, screenshots/**, logs/**',
+                fingerprint: true
+            )
         }
     }
 }
