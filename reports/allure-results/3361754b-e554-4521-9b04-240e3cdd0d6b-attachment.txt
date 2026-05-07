@@ -1,0 +1,25 @@
+2026-05-07 11:05:09,947 - tests.conftest - INFO - Starting Chrome WebDriver
+2026-05-07 11:05:50,731 - tests.conftest - INFO - Navigated to https://practice.expandtesting.com/notes/app
+2026-05-07 11:05:50,747 - root - INFO - Opening URL: https://practice.expandtesting.com/notes/app
+2026-05-07 11:05:55,257 - root - INFO - Starting login process
+2026-05-07 11:05:55,259 - root - INFO - Executing click - Attempt 1
+2026-05-07 11:05:55,576 - root - INFO - Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+2026-05-07 11:05:58,900 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 11:05:58,902 - root - INFO - Trying self-healing locators
+2026-05-07 11:05:58,994 - root - INFO - Locator success: ('id', 'email')
+2026-05-07 11:05:58,995 - root - INFO - Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+2026-05-07 11:06:02,431 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 11:06:02,433 - root - INFO - Trying self-healing locators
+2026-05-07 11:06:02,504 - root - INFO - Locator success: ('id', 'password')
+2026-05-07 11:06:02,504 - root - INFO - Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+2026-05-07 11:06:02,871 - root - INFO - Executing click - Attempt 1
+2026-05-07 11:06:03,043 - root - INFO - Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+2026-05-07 11:06:04,263 - root - WARNING - Click intercepted. Using JavaScript click.
+2026-05-07 11:06:04,339 - root - INFO - Login action completed
+2026-05-07 11:06:04,340 - root - INFO - Executing click - Attempt 1
+2026-05-07 11:06:06,146 - root - INFO - Clicking element: ('xpath', "//button[contains(text(),'Add')]")
+2026-05-07 11:06:07,261 - root - WARNING - Click intercepted. Using JavaScript click.
+2026-05-07 11:06:07,428 - root - INFO - Executing click - Attempt 1
+2026-05-07 11:06:07,524 - root - INFO - Clicking element: ('xpath', "//button[text()='Create']")
+2026-05-07 11:06:08,625 - root - WARNING - Click intercepted. Using JavaScript click.
+2026-05-07 11:06:08,769 - tests.conftest - INFO - Closing Chrome WebDriver

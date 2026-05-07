@@ -1,0 +1,19 @@
+2026-05-07 11:07:15,795 - tests.conftest - INFO - Starting Chrome WebDriver
+2026-05-07 11:07:47,981 - tests.conftest - INFO - Navigated to https://practice.expandtesting.com/notes/app
+2026-05-07 11:07:47,985 - root - INFO - Starting login process
+2026-05-07 11:07:47,985 - root - INFO - Executing click - Attempt 1
+2026-05-07 11:07:48,069 - root - INFO - Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+2026-05-07 11:07:49,257 - root - WARNING - Click intercepted. Using JavaScript click.
+2026-05-07 11:07:51,940 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 11:07:51,940 - root - INFO - Trying self-healing locators
+2026-05-07 11:07:51,966 - root - INFO - Locator success: ('id', 'email')
+2026-05-07 11:07:51,967 - root - INFO - Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+2026-05-07 11:07:52,416 - root - INFO - Executing send_keys - Attempt 1
+2026-05-07 11:07:52,416 - root - INFO - Trying self-healing locators
+2026-05-07 11:07:52,464 - root - INFO - Locator success: ('id', 'password')
+2026-05-07 11:07:52,464 - root - INFO - Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+2026-05-07 11:07:52,710 - root - INFO - Executing click - Attempt 1
+2026-05-07 11:07:52,786 - root - INFO - Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+2026-05-07 11:07:53,906 - root - WARNING - Click intercepted. Using JavaScript click.
+2026-05-07 11:07:53,952 - root - INFO - Login action completed
+2026-05-07 11:07:53,969 - tests.conftest - INFO - Closing Chrome WebDriver
