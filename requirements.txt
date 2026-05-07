@@ -1,4 +1,3 @@
-```txt
 selenium
 pytest
 pytest-xdist
@@ -8,4 +7,3 @@ requests
 pyyaml
 webdriver-manager
 allure-pytest
-```
