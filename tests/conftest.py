@@ -37,7 +37,7 @@ def driver(config):
     options = Options()
     options.add_argument("--start-maximized")
 
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Remote(options=options)
     driver.get(config["base_url"])
     logger.info(f"Navigated to {config['base_url']}")
 

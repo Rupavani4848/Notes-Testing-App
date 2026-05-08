@@ -1,0 +1,22 @@
+2026-05-08 09:32:47,712 - tests.conftest - INFO - Starting Chrome WebDriver
+2026-05-08 09:32:55,524 - tests.conftest - INFO - Navigated to https://practice.expandtesting.com/notes/app
+2026-05-08 09:32:55,527 - root - INFO - Opening URL: https://practice.expandtesting.com/notes/app
+2026-05-08 09:33:20,387 - root - INFO - Starting login process
+2026-05-08 09:33:20,388 - root - INFO - Executing click - Attempt 1
+2026-05-08 09:33:20,573 - root - INFO - Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+2026-05-08 09:34:05,306 - root - INFO - Executing send_keys - Attempt 1
+2026-05-08 09:34:05,307 - root - INFO - Trying self-healing locators
+2026-05-08 09:34:05,370 - root - INFO - Locator success: ('id', 'email')
+2026-05-08 09:34:05,371 - root - INFO - Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+2026-05-08 09:34:06,240 - root - INFO - Executing send_keys - Attempt 1
+2026-05-08 09:34:06,241 - root - INFO - Trying self-healing locators
+2026-05-08 09:34:06,335 - root - INFO - Locator success: ('id', 'password')
+2026-05-08 09:34:06,336 - root - INFO - Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+2026-05-08 09:34:07,107 - root - INFO - Executing click - Attempt 1
+2026-05-08 09:34:07,363 - root - INFO - Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+2026-05-08 09:34:08,560 - root - WARNING - Click intercepted. Using JavaScript click.
+2026-05-08 09:34:08,632 - root - INFO - Login action completed
+2026-05-08 09:34:08,633 - root - INFO - Fetching login error message
+2026-05-08 09:34:12,058 - root - WARNING - No auth alert/toast message found
+2026-05-08 09:34:12,336 - root - INFO - Field validation error: Email address is required
+2026-05-08 09:34:12,373 - tests.conftest - INFO - Closing Chrome WebDriver

@@ -1,0 +1,23 @@
+2026-05-08 09:29:42,115 - tests.conftest - INFO - Starting Chrome WebDriver
+2026-05-08 09:30:06,745 - tests.conftest - INFO - Navigated to https://practice.expandtesting.com/notes/app
+2026-05-08 09:30:06,759 - root - INFO - Opening URL: https://practice.expandtesting.com/notes/app
+2026-05-08 09:30:36,813 - root - INFO - Starting login process
+2026-05-08 09:30:36,814 - root - INFO - Executing click - Attempt 1
+2026-05-08 09:30:37,230 - root - INFO - Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+2026-05-08 09:30:38,545 - root - WARNING - Click intercepted. Using JavaScript click.
+2026-05-08 09:30:45,641 - root - INFO - Executing send_keys - Attempt 1
+2026-05-08 09:30:45,642 - root - INFO - Trying self-healing locators
+2026-05-08 09:30:45,701 - root - INFO - Locator success: ('id', 'email')
+2026-05-08 09:30:45,709 - root - INFO - Entering text into: [('id', 'email'), ('name', 'email'), ('xpath', "//input[@type='email']")]
+2026-05-08 09:30:46,284 - root - INFO - Executing send_keys - Attempt 1
+2026-05-08 09:30:46,285 - root - INFO - Trying self-healing locators
+2026-05-08 09:30:46,346 - root - INFO - Locator success: ('id', 'password')
+2026-05-08 09:30:46,347 - root - INFO - Entering text into: [('id', 'password'), ('name', 'password'), ('xpath', "//input[@type='password']")]
+2026-05-08 09:30:46,690 - root - INFO - Executing click - Attempt 1
+2026-05-08 09:30:46,913 - root - INFO - Clicking element: [('xpath', "//button[text()='Login']"), ('css selector', "button[type='submit']")]
+2026-05-08 09:30:47,218 - root - INFO - Login action completed
+2026-05-08 09:30:47,219 - root - INFO - Executing click - Attempt 1
+2026-05-08 09:30:48,956 - root - INFO - Clicking element: ('xpath', "//button[contains(text(),'Add')]")
+2026-05-08 09:30:49,492 - root - INFO - Executing click - Attempt 1
+2026-05-08 09:30:49,683 - root - INFO - Clicking element: ('xpath', "//button[text()='Create']")
+2026-05-08 09:30:50,060 - tests.conftest - INFO - Closing Chrome WebDriver
