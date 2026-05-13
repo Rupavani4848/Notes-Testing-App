@@ -1,3 +1,0 @@
-STATUS: 200
-RESPONSE: {"success":true,"status":200,"message":"Login successful","data":{"id":"69f9ebd081124e02985a72dc","name":"Test User","email":"testuser_2026_01@gmail.com","token":"e6e76785fcc049098dfdabaa1b2875da7accb1db6d19433aba308e35788da197"}}
-Response Time: 7.233767986297607

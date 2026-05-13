@@ -1,0 +1,29 @@
+[32mINFO    [0m root:base_page.py:88 Opening URL: https://practice.expandtesting.com/notes/app
+[32mINFO    [0m root:login_page.py:48 Starting login process
+[32mINFO    [0m root:retry_handler.py:15 Executing click - Attempt 1
+[32mINFO    [0m root:base_page.py:54 Clicking element: [('xpath', "//a[text()='Login']"), ('partial link text', 'Login')]
+[33mWARNING [0m root:base_page.py:64 Click intercepted. Using JavaScript click.
+[32mINFO    [0m root:retry_handler.py:15 Executing send_keys - Attempt 1
+[32mINFO    [0m root:base_page.py:26 Trying self-healing locators
+[33mWARNING [0m root:self_healing.py:25 Locator failed: ('id', 'email')
+[33mWARNING [0m root:self_healing.py:25 Locator failed: ('name', 'email')
+[33mWARNING [0m root:self_healing.py:25 Locator failed: ('xpath', "//input[@type='email']")
+[1m[31mERROR   [0m root:self_healing.py:29 All locators failed
+[33mWARNING [0m root:retry_handler.py:23 Attempt 1 failed for send_keys
+[1m[31mERROR   [0m root:retry_handler.py:28 Element not found using any locator
+[32mINFO    [0m root:retry_handler.py:15 Executing send_keys - Attempt 2
+[32mINFO    [0m root:base_page.py:26 Trying self-healing locators
+[33mWARNING [0m root:self_healing.py:25 Locator failed: ('id', 'email')
+[33mWARNING [0m root:self_healing.py:25 Locator failed: ('name', 'email')
+[33mWARNING [0m root:self_healing.py:25 Locator failed: ('xpath', "//input[@type='email']")
+[1m[31mERROR   [0m root:self_healing.py:29 All locators failed
+[33mWARNING [0m root:retry_handler.py:23 Attempt 2 failed for send_keys
+[1m[31mERROR   [0m root:retry_handler.py:28 Element not found using any locator
+[32mINFO    [0m root:retry_handler.py:15 Executing send_keys - Attempt 3
+[32mINFO    [0m root:base_page.py:26 Trying self-healing locators
+[33mWARNING [0m root:self_healing.py:25 Locator failed: ('id', 'email')
+[33mWARNING [0m root:self_healing.py:25 Locator failed: ('name', 'email')
+[33mWARNING [0m root:self_healing.py:25 Locator failed: ('xpath', "//input[@type='email']")
+[1m[31mERROR   [0m root:self_healing.py:29 All locators failed
+[33mWARNING [0m root:retry_handler.py:23 Attempt 3 failed for send_keys
+[1m[31mERROR   [0m root:retry_handler.py:28 Element not found using any locator
